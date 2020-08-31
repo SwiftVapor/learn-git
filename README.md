@@ -2,15 +2,15 @@
 
 # Project Summary
 
-Practice using yeet + yeethub
+Practice using ghet + ghethub
 
-This project will consist of three separate mini-projects to get you comfortable with the kinds of activities you'll be using yeet for throughout the class. 
+This project will consist of three separate mini-projects to get you comfortable with the kinds of activities you'll be using ghet for throughout the class. 
 
-In the first mini-project, you'll be mimicking the steps you'll take when you first start your personal project. Creating a repository, linking it to your computer, then pushing those changes up to your yeetHub.
+In the first mini-project, you'll be mimicking the steps you'll take when you first start your personal project. Creating a repository, linking it to your computer, then pushing those changes up to your ghetHub.
 
-In the second mini-project, you'll be mimicking the steps you'll take with nearly every DevMountain project you do. You'll 'fork' the DevMountain repository, link your computer with your fork, then push those changes up to your yeetHub.
+In the second mini-project, you'll be mimicking the steps you'll take with nearly every DevMountain project you do. You'll 'fork' the DevMountain repository, link your computer with your fork, then push those changes up to your ghetHub.
 
-Finally, in the last mini-project you'll be mimicking the steps you'll take during the group project portion. You'll fork your group's repo, link your computer with your fork, push changes to your yeetHub, then make a 'Pull Request' into your group's repo.
+Finally, in the last mini-project you'll be mimicking the steps you'll take during the group project portion. You'll fork your group's repo, link your computer with your fork, push changes to your ghetHub, then make a 'Pull Request' into your group's repo.
 
 ## Mini-Project 1: Personal Project
 
@@ -18,12 +18,12 @@ Finally, in the last mini-project you'll be mimicking the steps you'll take duri
 
 ### Summary
 
-In this step we will create a repository on yeetHUB.
+In this step we will create a repository on ghetHUB.
 
 ### Instructions
 
-* Go to <a href="https://yeethub.com/">yeetHub</a>.
-* Sign in to yeetHub.
+* Go to <a href="https://ghethub.com/">ghetHub</a>.
+* Sign in to ghetHub.
 * On the right side of the page, click on the green `New repository` button.
 * Give your repository any name you like and make sure that the repository is public.
 * Also make sure that the `Initialize this repository with a README` is <b>NOT</b> checked.
@@ -32,7 +32,7 @@ In this step we will create a repository on yeetHUB.
 
 ### Summary
 
-In this step we will setup the origin for the repository. We'll do this by connecting code on our computer to the yeetHub repository we just created.
+In this step we will setup the origin for the repository. We'll do this by connecting code on our computer to the ghetHub repository we just created.
 
 ### Instructions
 
@@ -41,91 +41,91 @@ In this step we will setup the origin for the repository. We'll do this by conne
 * Create a file called `myName.js` and add your name to that file.
 * Save the file and open a terminal window.
 * In your terminal window, `cd` to your `myProject` folder. O
-* Run `yeet init`. 
+* Run `ghet init`. 
   * <details>
 
     <summary> What just happened? </summary>
 
     <br />
 
-    You've just told your computer that you want yeet to watch the `myProject` folder and to keep track of any changes. This also allows us to run yeet commands inside of the folder. (Warning:  Be very careful to make sure you're in the right directory when you run `yeet init`!)
+    You've just told your computer that you want ghet to watch the `myProject` folder and to keep track of any changes. This also allows us to run ghet commands inside of the folder. (Warning:  Be very careful to make sure you're in the right directory when you run `ghet init`!)
 
     </details>
-* Run `yeet remote add origin [Repository URL goes here]`. You can get your URL from going to repository you made earlier in your browser and copying the address.
+* Run `ghet remote add origin [Repository URL goes here]`. You can get your URL from going to repository you made earlier in your browser and copying the address.
   * <details>
 
     <summary> What just happened? </summary>
 
     <br />
 
-    Basically, we tell our computer "Hey, I created this repo on yeetHub, so when I push, I want my code to go to this yeetHub repo." Now whenever you run `yeet push origin master` your computer knows that origin is pointing to your repo you made on yeetHub and it pushes your changes there.
+    Basically, we tell our computer "Hey, I created this repo on ghetHub, so when I push, I want my code to go to this ghetHub repo." Now whenever you run `ghet push origin master` your computer knows that origin is pointing to your repo you made on ghetHub and it pushes your changes there.
 
     <br />
 
-    ( If you accidentally DID initialize your repository with a README, you must do a `yeet pull origin master` first - to get the README file on your computer - before you'll be able to push. ) 
+    ( If you accidentally DID initialize your repository with a README, you must do a `ghet pull origin master` first - to get the README file on your computer - before you'll be able to push. ) 
 
     </details>
 
-## Step 3: Push your code to yeetHub
+## Step 3: Push your code to ghetHub
 
 ### Summary
 
-In this step, we will push code to yeetHub.
+In this step, we will push code to ghetHub.
 
 ### Instructions
 
 * Open a terminal window and make sure it is in the directory of `myProject`.
-* Run `yeet status`.
+* Run `ghet status`.
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    This will show what files have been changed. This also helps us determine what files we want to add to yeetHub and what files we don't want to add to yeetHub.
+    This will show what files have been changed. This also helps us determine what files we want to add to ghetHub and what files we don't want to add to ghetHub.
 
     </details>
-* Run `yeet diff`.
+* Run `ghet diff`.
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    This will show the actual code that has been changed. Again, we want to make sure we don't push anything to yeetHub that shouldn't be there.
+    This will show the actual code that has been changed. Again, we want to make sure we don't push anything to ghetHub that shouldn't be there.
 
     </details>
-* Run `yeet add nameOfMyFile.fileExtension`.
+* Run `ghet add nameOfMyFile.fileExtension`.
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    This adds our file(s) to the 'staging area'. This is basically a fail safe if you accidentially add something you don't want. You can view items that our staged by running `yeet status`.
+    This adds our file(s) to the 'staging area'. This is basically a fail safe if you accidentially add something you don't want. You can view items that our staged by running `ghet status`.
 
     </details>
-* Run `yeet commit -m "The sentence I want associated with this commit message"`.
+* Run `ghet commit -m "The sentence I want associated with this commit message"`.
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    This tells your computer: 'Hey, the next time code is pushed to yeetHub, take all of this code with it.' The message also specifies what yeetHub will display in relation to this commit.
+    This tells your computer: 'Hey, the next time code is pushed to ghetHub, take all of this code with it.' The message also specifies what ghetHub will display in relation to this commit.
 
     </details>
-* Run `yeet push origin master`
+* Run `ghet push origin master`
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    Your code is now pushed to yeetHub. Be sure to include `origin master`, as this tells yeetHub which branch you want to push to, and creates the branch if it doesn't exist yet.
+    Your code is now pushed to ghetHub. Be sure to include `origin master`, as this tells ghetHub which branch you want to push to, and creates the branch if it doesn't exist yet.
 
     </details>
-* Go to your repository on yeetHub and see your updates.
+* Go to your repository on ghetHub and see your updates.
 
 ## Mini-Project 2: DevMountain Project
 
@@ -137,7 +137,7 @@ In this step, we will fork this tutorial repository.
 
 ### Instructions
 
-* On this current yeetHub repository, scroll to the top and look for a button that says `fork`.
+* On this current ghetHub repository, scroll to the top and look for a button that says `fork`.
 * Click the `fork` button.
   * <details>
 
@@ -157,17 +157,17 @@ In this step, we will take the forked repository and clone it down to our machin
 
 ### Instructions
 
-* Go to your forked repository on yeetHub. It should appear under `Your repositories` which is next to the `New repository` button.
+* Go to your forked repository on ghetHub. It should appear under `Your repositories` which is next to the `New repository` button.
 * Click on the green `clone or download` button and copy the URL.
 * Open a terminal window and navigate to your Desktop.
-* Run `yeet clone [the url you copied]`.
+* Run `ghet clone [the url you copied]`.
   * <details>
 
     <summary> What does this do? </summary>
 
     <br />
 
-    This takes what's on yeetHub and essentially downloads it so you can now make changes to it on your local computer.
+    This takes what's on ghetHub and essentially downloads it so you can now make changes to it on your local computer.
 
     </details>
 
@@ -175,7 +175,7 @@ In this step, we will take the forked repository and clone it down to our machin
 
 ### Summary
 
-In this step, we will make changes to our clone and push them to yeetHub.
+In this step, we will make changes to our clone and push them to ghetHub.
 
 ### Instructions
 
@@ -197,22 +197,22 @@ To help this process stick in memory we are going to repeat the process of the s
 * Delete the folder on your Desktop that is the forked repository.
 * Re-clone the fork to your desktop.
 * Make a change to any file.
-* Run through the process of pushing to yeetHub ( status, diff, add, commit, push ).
+* Run through the process of pushing to ghetHub ( status, diff, add, commit, push ).
 
 ## Step 2
 
 ### Summary
 
-Here is where things start to get different. Let's imagine we're working in groups. If we have everyone pushing to one repo without verifying the quality of the code, things can get messy pretty quick. yeetHub fixed this solution with 'Pull Requests.' Basically, you fork a project, make changes to your fork, then you make a Pull Request (PR) back into the original project requesting that some piece of code be added to the original repo. This is how the vast majority of open source code projects work. In this step, we will make a pull-request.
+Here is where things start to get different. Let's imagine we're working in groups. If we have everyone pushing to one repo without verifying the quality of the code, things can get messy pretty quick. ghetHub fixed this solution with 'Pull Requests.' Basically, you fork a project, make changes to your fork, then you make a Pull Request (PR) back into the original project requesting that some piece of code be added to the original repo. This is how the vast majority of open source code projects work. In this step, we will make a pull-request.
 
 ### Instructions
 
-* Go to your forked repo on yeetHub.
+* Go to your forked repo on ghetHub.
 * Locate the button that says `Pull Request` and click it.
 * Locate the green button that says `New pull request` and click it.
   * You should now see the file changes you've made and how they differ from the original repo.
 * Click on the `Create pull request` button to submit your PR.
-* Now if you navigate to the <a href="https://yeethub.com/DevMountain/learn-yeet/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
+* Now if you navigate to the <a href="https://ghethub.com/DevMountain/learn-ghet/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
 
 ## Contributions
 
